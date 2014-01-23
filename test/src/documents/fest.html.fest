@@ -1,0 +1,5 @@
+---
+title: fest
+---
+<h1>Hello,<fest:space/><fest:value output="text">data.document.title</fest:value></h1>
+<!-- По умолчанию все значения fest:value экранируются -->

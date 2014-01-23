@@ -1,0 +1,40 @@
+{
+  "name": "docpad-plugin-fest",
+  "version": "2.0.0",
+  "description": "Fest templating engine for DocPad.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apoleshchuk/docpad-plugin-fest.git"
+  },
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "fest",
+    "templating",
+    "templates",
+    "render",
+    "rendering"
+  ],
+  "author": "Anton Poleshchuk <a.poleshchuk@corp.mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apoleshchuk/docpad-plugin-fest/issues"
+  },
+  "homepage": "https://github.com/apoleshchuk/docpad-plugin-fest",
+  "dependencies": {
+    "fest": "https://github.com/apoleshchuk/fest/archive/v0.8.1.tar.gz"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "peerDependencies": {
+    "docpad": ">=6.46 <7"
+  },
+  "main": "./out/fest.plugin.js",
+  "scripts": {
+    "test": "node ./out/fest.test.js"
+  }
+}
